@@ -1,0 +1,21 @@
+/*Layout*/
+body#layout {width: 100% !important;}
+body#layout #header{float:left;width:63%}
+body#layout #side-menu {float: right; width: 26%;}
+body#layout #top-script {display: none;}
+body#layout #left-wrapper{float:left;width:24%}
+body#layout #newsfeed, body#layout #iklan-newsfeed {float: left; width: 38%;}
+body#layout .section h4 {display: none !important;}
+body#layout #label-indeks-berita{bottom:27.5%;position:absolute;width:151px;}
+body#layout #main{float:left;width:38%}
+body#layout #sidebar-wrapper{float:right;margin: -32% 0 0;width:32.2%}
+body#layout #featleft {float: left; width: 61.9%;}
+body#layout #featright {float: right; width: 27%;}
+body#layout #columns1, body#layout #footer1 {float: left; width: 44.5%;}
+body#layout #columns2, body#layout #footer2 {float: right; width: 44.5%;}
+body#layout #bottom-link {clear: both;}
+body#layout::before {content: &quot;detikcoy v.1.0&quot;; padding: 5px 10px; position: absolute; right: 20px; top: 20px; z-index: 1;}
+body#layout #mostpopularpage1 {float: left;  width: 28%;}
+body#layout #mostpopularpage2 {float: left; width: 28%;}
+body#layout #mostpopularpage3 {float: right; width: 28%;}
+body#layout ul {display: none;}
